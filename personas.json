@@ -1,0 +1,45 @@
+{
+    "resourceType": "Patient",
+    "name": [
+      {
+        "family": "Smith",
+        "given": ["Mike"]
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "(999) 999-9999"
+      },
+      {
+        "system": "email",
+        "value": "john.smith@gmail.com"
+      }
+    ],
+    "gender": "male",
+    "birthDate": "1970-01-01",
+    "address": [
+      {
+        "line": ["101 Walnut St"],
+        "city": "Watertown",
+        "state": "MA",
+        "postalCode": "02472",
+        "country": "US"
+      }
+    ],
+    "communication": [
+      {
+        "language": {
+          "coding": [
+            {
+              "system": "urn:ietf:bcp:47",
+              "code": "en-US",
+              "display": "English"
+            }
+          ],
+          "text": "English"
+        },
+        "preferred": true
+      }
+    ]
+  }
